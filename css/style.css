@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+
+}
+.window {
+    border: solid green 1px;
+    padding: 1px;
+    width: 800px;
+    height: 600px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.room {
+    border: dashed green 1px;
+}
+.room:hover {
+    border: solid red 1px;
+}
+.starter {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.one {
+    grid-column: 1;
+}
+.two {
+    grid-column: 2;
+}
+.three {
+    grid-column: 3;
+}
+.four {
+    grid-column: 4;
+}
+.five {
+    grid-column: 5;
+}
+.six {
+    grid-column: 6;
+}
+.seven {
+    grid-column: 7;
+}
+.eight {
+    grid-column: 8;
+}
+.alpha {
+    grid-row: 1;
+}
+.beta {
+    grid-row: 2;
+}
+.charlie {
+    grid-row: 3;
+}
+.delta {
+    grid-row: 4;
+}
+.echo {
+    grid-row: 5;
+}
+.foxtrot {
+    grid-row: 6;
+}
