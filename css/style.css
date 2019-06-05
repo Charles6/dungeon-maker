@@ -10,8 +10,8 @@ body{
     margin: 20px auto;
     display: grid;
     grid-gap: 1px;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 
 .room {
@@ -25,45 +25,8 @@ body{
     grid-row: 3;
 }
 
-.one {
-    grid-column: 1;
-}
-.two {
-    grid-column: 2;
-}
-.three {
-    grid-column: 3;
-}
-.four {
-    grid-column: 4;
-}
-.five {
-    grid-column: 5;
-}
-.six {
-    grid-column: 6;
-}
-.seven {
-    grid-column: 7;
-}
-.eight {
-    grid-column: 8;
-}
-.alpha {
-    grid-row: 1;
-}
-.beta {
-    grid-row: 2;
-}
-.charlie {
-    grid-row: 3;
-}
-.delta {
-    grid-row: 4;
-}
-.echo {
-    grid-row: 5;
-}
-.foxtrot {
-    grid-row: 6;
+.test {
+    height: 100px;
+    width: 100px;
+    border: solid magenta 1px;
 }
