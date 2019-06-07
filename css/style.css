@@ -15,7 +15,7 @@ body{
 }
 
 .room {
-    border: dashed dodgerblue 1px;
+    border: dashed green 1px;
 }
 .room:hover {
     border: solid red 1px;
