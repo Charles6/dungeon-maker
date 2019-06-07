@@ -1,5 +1,7 @@
-var defaultWidth = 10;
-var defaultHeight = 10;
+var defaultWidth = 8;
+var defaultHeight = 6;
+var mapWidth = 800;
+var mapHeight = 600;
 
 console.log("Hello World");
 
@@ -16,11 +18,15 @@ var sheet = (function() {
 
 //Uses variables defaultWidth and defaultHeight to set dimensions of grid
 var setMapDimensions = (function(){
+	
 	var columns = "grid-template-columns: repeat("+defaultWidth+", 1fr);";
 	var rows = "grid-template-rows: repeat("+defaultHeight+", 1fr);";
+	var width = "width:"+mapWidth+"px;";
+	var height = "height:"+mapHeight+"px;";
 	
+	var declarations = columns +rows + width + height;
 	//var tester = "background-color: pink;";
-	sheet.insertRule(".window{"+columns+rows+"}");
+	sheet.insertRule(".window{"+declarations+"}");
 })();
 
 var cascadeIndex = 0

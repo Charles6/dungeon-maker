@@ -5,8 +5,8 @@ body{
 .window {
     border: solid green 1px;
     padding: 1px;
-    width: 800px;
-    height: 600px;
+    /*width: 800px;*/
+    /*height: 600px;*/
     margin: 20px auto;
     display: grid;
     grid-gap: 1px;
