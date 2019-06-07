@@ -10,8 +10,8 @@ body{
     margin: 20px auto;
     display: grid;
     grid-gap: 1px;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    /*grid-template-columns: repeat(8, 1fr);*/
+    /*grid-template-rows: repeat(6, 1fr);*/
 }
 
 .room {
